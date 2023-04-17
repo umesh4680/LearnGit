@@ -16,6 +16,8 @@
 		7CEE7B7D29ED353D00CF5CA6 /* LearnGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE7B7C29ED353D00CF5CA6 /* LearnGitTests.swift */; };
 		7CEE7B8729ED353D00CF5CA6 /* LearnGitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE7B8629ED353D00CF5CA6 /* LearnGitUITests.swift */; };
 		7CEE7B8929ED353D00CF5CA6 /* LearnGitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE7B8829ED353D00CF5CA6 /* LearnGitUITestsLaunchTests.swift */; };
+		7CEE7B9729ED5A0500CF5CA6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEE7B9529ED5A0500CF5CA6 /* SecondViewController.swift */; };
+		7CEE7B9829ED5A0500CF5CA6 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CEE7B9629ED5A0500CF5CA6 /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7CEE7B8229ED353D00CF5CA6 /* LearnGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEE7B8629ED353D00CF5CA6 /* LearnGitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnGitUITests.swift; sourceTree = "<group>"; };
 		7CEE7B8829ED353D00CF5CA6 /* LearnGitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnGitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CEE7B9529ED5A0500CF5CA6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7CEE7B9629ED5A0500CF5CA6 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				7CEE7B6529ED353A00CF5CA6 /* AppDelegate.swift */,
 				7CEE7B6729ED353A00CF5CA6 /* SceneDelegate.swift */,
 				7CEE7B6929ED353A00CF5CA6 /* ViewController.swift */,
+				7CEE7B9529ED5A0500CF5CA6 /* SecondViewController.swift */,
+				7CEE7B9629ED5A0500CF5CA6 /* SecondViewController.xib */,
 				7CEE7B6B29ED353A00CF5CA6 /* Main.storyboard */,
 				7CEE7B6E29ED353D00CF5CA6 /* Assets.xcassets */,
 				7CEE7B7029ED353D00CF5CA6 /* LaunchScreen.storyboard */,
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CEE7B9829ED5A0500CF5CA6 /* SecondViewController.xib in Resources */,
 				7CEE7B7229ED353D00CF5CA6 /* LaunchScreen.storyboard in Resources */,
 				7CEE7B6F29ED353D00CF5CA6 /* Assets.xcassets in Resources */,
 				7CEE7B6D29ED353A00CF5CA6 /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CEE7B9729ED5A0500CF5CA6 /* SecondViewController.swift in Sources */,
 				7CEE7B6A29ED353A00CF5CA6 /* ViewController.swift in Sources */,
 				7CEE7B6629ED353A00CF5CA6 /* AppDelegate.swift in Sources */,
 				7CEE7B6829ED353A00CF5CA6 /* SceneDelegate.swift in Sources */,
