@@ -44,6 +44,8 @@ class ViewController: UIViewController {
         if #available(iOS 15.0, *) {
             navigationController?.navigationBar.compactScrollEdgeAppearance = newNavBarAppearance
         }
+        navigationController?.navigationItem.title = "Git Demo "
+
     }
     
     override func viewWillAppear(_ animated: Bool) {
