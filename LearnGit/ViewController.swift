@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         // UI Setup for Navigation Bar
         self.setNavigationBarAppearance()
         
+        
+    
     }
     
     
@@ -30,7 +32,7 @@ class ViewController: UIViewController {
         // when you wanted a configuration with a transparent background
         
         // Navigation bar's background color
-        newNavBarAppearance.backgroundColor = .purple
+        newNavBarAppearance.backgroundColor = .lightText
         
         // Navigation bar's title foreground color
         newNavBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
